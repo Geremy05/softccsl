@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('th.jpg'); /* Nom de l'image */
+    background-size:    150px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 15px;
+}
+image {
+    height: 300px;
+    width: 300px;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#user-details {
+    margin-top: 20px;
+    text-align: left;
+}
